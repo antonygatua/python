@@ -44,3 +44,24 @@ for pizza in pizza_list:
 for pizza in pizza_list:
     print(f"I like {pizza} pizza.")
 print("I really like Pizza")
+
+# Try it yourself
+# counting to twenty: Use a for loop to print numbers from 1 to 20
+for number in range(1, 21):
+    print(number)
+
+# Threes: Make a list of the multiples of 3 from 3 to 30.
+three_multiples = []
+for numbers in range(3, 31, 3):
+    three_multiples.append(numbers)
+
+print(three_multiples)
+
+# cubes: A number raised to the power of 3
+# make a list of the first 10 cubes and use a loop to print out each value
+cubes = []
+for cube in range(1,11):
+    print(cube**3)
+    cubes.append(cube**3)
+
+print(cubes)
