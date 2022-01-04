@@ -4,3 +4,7 @@ even_numbers = list(range(2, 11, 2))
 print(even_numbers)
 
 # range() format - range(start, stop, step)
+
+# generate even numbers between 40 and 60 
+even = list(range(40, 60, 2))
+print(even)
