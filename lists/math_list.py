@@ -10,3 +10,23 @@ print(maximum_digit)
 
 total = sum(digits) # sum of the list digits
 print(total)
+
+# try it yourself 
+# Make a list of the numbers from 1 to 1000, and then use a for loop to print the numbers
+numbers_list = []
+for number in range(1,1001):
+    print(number)
+    numbers_list.append(number)
+
+print(numbers_list)
+
+# prove that your lists starts at 1 and ends at 1000
+max_number = max(numbers_list)
+print(max_number)
+
+min_number = min(numbers_list)
+print(min_number)
+
+# calculate the sum
+total = sum(numbers_list)
+print(total)
