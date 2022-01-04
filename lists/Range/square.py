@@ -9,6 +9,6 @@ print(squares)
 # make code more concise
 squares = []
 for value in range(1, 11):
-    squares.append(value**2)
+    squares.append(value**2) # removed the varible square
 
 print(squares)
