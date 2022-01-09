@@ -56,6 +56,15 @@ alien_0['x_position'] = alien_0['x_position'] + x_increment
 
 print(f"New position: {alien_0['x_position']}")
 
+# Removing Key-Value Pairs using del
+alien_0 = {'color': 'green', 'points': 5}
+print(alien_0)
+
+del alien_0['points'] # delete the key 'points' from the dictionary and remove value associated
+print(alien_0)
+
+# deleted key-value pair is removed permanently
+
 
 
 
